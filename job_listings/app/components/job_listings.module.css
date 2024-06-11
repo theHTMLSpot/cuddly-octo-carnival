@@ -71,6 +71,22 @@
     margin: 1%;
     color: hsl(180, 8%, 52%);
 }
+.extra-info > ul{
+    display: flex;
+    gap: 1%;
+
+}
+.extra-info > ul > li{
+    background-color: hsl(180, 29%, 50%);
+    color:hsl(180, 8%, 52%);
+    border-radius: 5px;
+    list-style: none;
+    transition: 0.2s ease-in-out;
+}
+.extra-info > ul > li:hover{
+    color: white;
+}
+
 .hidden
 {
     display: none;
